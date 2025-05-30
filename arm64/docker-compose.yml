@@ -1,6 +1,6 @@
 services:
   iris:
-    image: containers.intersystems.com/intersystems/irishealth-community-arm64:2025.1
+    image: containers.intersystems.com/intersystems/irishealth-community-arm64:latest-preview
     container_name: iris-health-arm64
     restart: unless-stopped
     
