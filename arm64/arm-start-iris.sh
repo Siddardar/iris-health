@@ -113,7 +113,7 @@ HTTP_CODE=$( \
 rm "$COOKIE_JAR"
 
 if [[ "$HTTP_CODE" == "302" ]]; then
-  echo "HTTP login with new password succeeded"
+  echo "HTTP login with new password succeeded. Use: _SYSTEM/$NEW_PASSWORD"
 else
   echo "HTTP login failed (code $HTTP_CODE)"
   echo "Use default username/password: _SYSTEM/SYS"
